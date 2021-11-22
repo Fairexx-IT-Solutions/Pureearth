@@ -39,7 +39,11 @@ html, body {
     font-weight: 300 !important;
 }
 
-
+.navbar-toggler-icon{
+    background-color: white;
+    /* color: white !important; */
+    
+}
 .navbar-nav {
     
     margin-left: 2rem !important;
