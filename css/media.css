@@ -1,0 +1,429 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+/* //Large devices (desktops, 992px and up) */
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* media queries */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+   
+    .mybanz {
+        display: flex;
+        flex-direction: column-reverse; 
+        justify-content: space-between;
+    }
+    .myheader {
+        height: auto;
+        color: white;
+        margin: 0;
+        padding: 2rem 2.5rem 4rem 2.5rem;
+        background: #1C3A27;
+        border-radius: 0px 0px 0px 80px;
+    }
+
+    .mynavv {
+        display: block !important;
+    }
+    .navbar-nav {
+    
+        margin-left: 0rem !important;
+    }
+    .navbar-nav li {
+        padding-left: 2rem !important;
+    }
+
+    .hom {
+        padding: 0rem !important;
+        
+    } 
+
+    
+    .menb {
+        padding-left: 0 !important;
+    
+    }
+
+    .menb ul {
+        padding-left: 0 !important;
+    
+    }
+
+
+
+    .btn-log {
+        width: 5rem !important;
+        height: 2rem !important;
+        padding: 0.65rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+        
+    }
+
+    .ftext h1 {
+        font-size: 3rem;
+    }
+    
+    .ftext p {
+        font-size: 1rem;
+    }
+
+    .mplate {
+        padding: 0;
+    }
+
+    .ballplate {
+        width: 100%;
+        padding-bottom: 8rem;
+        /* display: grid;
+        grid-template-columns: 25% 20% 20% 20%;
+        grid-template-rows: 20% 20% 20% 20%; */
+       
+        
+       
+    }
+
+    .fcircle {
+    
+        width: 10.6rem;
+        height: 10.6rem;
+        border-radius: 300px;
+        
+    }
+    
+    
+    .scircle {
+        position:absolute;
+        width: 8rem;
+        height: 8rem;
+        left: 12rem;
+        top: 6rem;
+        border-radius: 300px;
+        clip-path: none;
+       
+    
+        
+    }
+    
+    
+    
+    
+    .tcircle{
+        position: absolute;
+        width: 6rem;
+        height: 6rem;
+        left: 6.2rem;
+        top: 10.5rem;
+        border-radius: 300px;
+        
+    }
+    
+    
+    
+    .article-tittle h1 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        font-style: normal;
+        color: #2E2E2E;
+    }
+
+    .article-fig h1 {
+        font-size: 5.5rem;
+        font-weight: 500;
+        font-style: normal;
+        color: #E6E6E6;
+    }
+
+    .missionT h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #2E2E2E;
+    }
+
+    .mycardz-tittle {
+        font-size: 1rem !important;
+        font-weight: 700 !important;
+        font-style: normal !important;
+        font-feature-settings: 'pnum' on, 'lnum' on !important;
+    }
+
+    .mycardz-text {
+        font-size: 0.8rem !important;
+        font-weight: normal !important;
+        font-style: normal !important;
+        color: #808080 !important;
+    }
+    .project-tittle h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-style: normal;
+        color: #2E2E2E;
+    }
+
+    .odaz-pro-text {
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 60%;
+        background: #1C3A27;
+        border-radius: 0rem 1rem;
+        padding: 1.5rem;
+        
+    }
+
+    .pro-text-odaz p {
+        font-size: 0.4rem;
+    }
+
+    .pro-text-odaz h6 {
+        font-size: 0.6rem;
+    }
+
+  
+    .helpz-text h2 {
+        width: 15rem;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+
+    .helpz-text p {
+        width: 18rem;
+        
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        color: #E6E6E6;
+    }
+
+    .helpwayz{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+        height: auto;
+        padding: 4.5rem 5rem 4.5rem 4rem ;
+        
+        background: #1C3A27;
+        clip-path: polygon(82% 0, 84% 0, 83% 5%, 84% 6%, 100% 87%, 98% 95%, 90% 100%, 0 100%, 0 0, 78% 0);
+    
+    
+        border-radius: 0rem 20.5rem 8rem 0rem;
+    
+    }
+
+    .fut-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8rem;
+        color: #808080;
+    }
+}
+/* Smaller devices */
+@media only screen and (max-width: 768px) {
+   
+    .mybanz {
+        display: none !important;
+      
+    }
+
+    .menb {
+        width: 100%;
+        display: block !important;
+        justify-content: space-between !important;
+    }
+
+    .menb ul {
+        margin: 0 !important;
+    }
+
+    .menb ul li {
+        padding-left: 0 !important;
+    }
+
+    .logi {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+
+    .article-tittle h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        font-style: normal;
+        color: #2E2E2E;
+    }
+
+    .article-fig h1 {
+        font-size: 4.5rem;
+        font-weight: 500;
+        font-style: normal;
+        color: #E6E6E6;
+    }
+
+    .article-text p {
+        color: #808080;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 0.8rem;
+        
+    }
+
+    .article-link a {
+        font-size: 0.8rem !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-feature-settings: 'pnum' on, 'lnum' on !important;
+        color: #53C351 !important;
+    }
+
+    .missionT h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #2E2E2E;
+    }
+
+    .missionplate {
+        padding: 4rem 3rem 4rem 3rem;
+    }
+
+    .mycardz-tittle {
+        font-size: 0.9rem !important;
+        font-weight: 700 !important;
+        font-style: normal !important;
+        font-feature-settings: 'pnum' on, 'lnum' on !important;
+    }
+
+    .mycardz-text {
+        font-size: 0.7rem !important;
+        font-weight: normal !important;
+        font-style: normal !important;
+        color: #808080 !important;
+    }
+    .propla {
+        padding: 4rem 3rem 4rem 3rem;
+    }
+    .project-tittle h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: normal;
+        color: #2E2E2E;
+    }
+    .butz {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .projectz {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+       
+        
+    }
+
+    .latest{
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        height: 40rem;
+        background-image: url('../images/nature1.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 1rem;
+        padding: 0;
+        margin: 0 0 0.5rem 0;
+    }
+
+    .first-on-odaz {
+        display: flex;
+        align-items: flex-end;
+        background-image: url('../images/nature2.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 15rem;
+        border-radius: 1rem;
+    }
+    .first-on-odaz {
+        display: flex;
+        align-items: flex-end;
+        background-image: url('../images/nature2.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 40rem;
+        border-radius: 1rem;
+    }
+
+    .odaz-pro-text {
+    
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 20%;
+        background: #1C3A27;
+        border-radius: 0rem 1rem;
+        padding: 2.5rem;
+        
+    }
+
+    .helpwayz{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 2.5rem 2.5rem 4.5rem 4rem ;
+        border-radius: 0;
+        background: #1C3A27;
+        clip-path: none;
+    
+    }
+
+    .helpz-text h2 {
+        width: 80%;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.9rem;
+        color: #FFFFFF;
+    }
+
+    .helpz-text p {
+        width: 80%;
+        
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.9rem;
+        color: #E6E6E6;
+    }
+
+    .myhelp {
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+     }
+}
+
+@media only screen and (max-width: 576px) {
+    
+}
