@@ -23,7 +23,7 @@ html, body {
     border-radius: 0px 0px 0px 80px;
 }
 .navbar {
-    background: none;
+    background: #1C3A27;
     color: white;
     margin-bottom: 4rem;
     
@@ -38,6 +38,7 @@ html, body {
     font-size: 1rem !important;
     font-weight: 300 !important;
 }
+
 
 .navbar-nav {
     
@@ -414,7 +415,7 @@ html, body {
 }
 
 .section-3 {
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 .propla {

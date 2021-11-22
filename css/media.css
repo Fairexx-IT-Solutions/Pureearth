@@ -228,6 +228,10 @@
     
     }
 
+    .blog-md {
+        margin-top: 0.5rem;
+    }
+
     .fut-text {
         font-style: normal;
         font-weight: normal;
@@ -372,6 +376,18 @@
         margin: 0 0 0.5rem 0;
     }
 
+    .pro-text {
+    
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 30%;
+        background: #1C3A27;
+        border-radius: 0rem 1rem;
+        padding: 2.5rem;
+        
+    }
+
 
     .first-on-odaz {
         display: flex;
@@ -501,6 +517,17 @@
         margin: 0 0 0.5rem 0;
     }
 
+    .pro-text {
+    
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 35%;
+        background: #1C3A27;
+        border-radius: 0rem 1rem;
+        padding: 2.5rem;
+        
+    }
 
     .first-on-odaz {
         display: flex;
