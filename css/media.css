@@ -578,7 +578,7 @@
         align-items: center;
         width: 100%;
         height: auto;
-        padding: 2.5rem 2.5rem 4.5rem 4rem ;
+        padding: 2rem 2rem 2rem 2rem ;
         border-radius: 0;
         background: #1C3A27;
         clip-path: none;
@@ -623,6 +623,10 @@
     }
 
     .missionplate {
-        padding: 2rem 2.5rem 2rem 2rem;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .propla {
+        padding: 2rem 2rem 2rem 2rem;
     }
 }
