@@ -502,7 +502,7 @@
     }
 
     .propla {
-        padding: 4rem 3rem 4rem 3rem;
+        padding: 2rem 2rem 2rem 2rem;
     }
     .project-tittle h1 {
         font-size: 2rem;
@@ -627,6 +627,9 @@
     }
 
     .propla {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .kad {
         padding: 2rem 2rem 2rem 2rem;
     }
 }
