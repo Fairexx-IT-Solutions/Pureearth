@@ -86,6 +86,16 @@ html, body {
     align-items: center;
 }
 
+.btn-log:hover {
+    width: 7.5rem !important;
+    height: 2.5rem !important;
+    padding: 0.75rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #53C351 !important ;
+}
+
 .logi {
     display: flex;
     justify-content: flex-end;
