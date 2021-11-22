@@ -818,7 +818,7 @@ footer{
 .fut-text {
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #808080;
 }
 
@@ -833,6 +833,10 @@ footer{
 
 .blogfut{
     width: 10rem;
+}
+
+.blogfut p{
+    font-size: 0.8rem;
 }
 
 .fm {
@@ -864,3 +868,6 @@ footer{
 .abt {
     width: 15rem;
 }
+
+
+    
