@@ -627,7 +627,7 @@ html, body {
    width: 100%;
 }
 .helpz-text {
-    width: 30rem;
+    width: auto;
 } 
 
 .helpz-text h2 {
