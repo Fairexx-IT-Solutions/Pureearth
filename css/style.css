@@ -189,13 +189,14 @@ html, body {
 }
 
 .mplate {
-    padding-top: 4rem;
-    width: 100%;
-    box-sizing: border-box;
     display: flex;
-    justify-content: end;
-    align-items: baseline;
-    align-content: flex-end;
+    justify-content: flex-end !important;
+    align-items: center;
+    /* padding-top: 4rem; */
+    width: 100%;
+    /* box-sizing: border-box; */
+    
+    
     
    
     
@@ -204,6 +205,7 @@ html, body {
 
 .ballplate {
     width: 100%;
+    padding-left: 6rem;
    
    
     
@@ -211,8 +213,8 @@ html, body {
 }
 .fcircle {
     
-    width: 10.6rem;
-    height: 10.6rem;
+    width: 16rem;
+    height: 16rem;
     border-radius: 300px;
     
 }
@@ -220,10 +222,10 @@ html, body {
 
 .scircle {
     position:absolute;
-    width: 8rem;
-    height: 8rem;
-    left: 12rem;
-    top: 10rem;
+    width: 11rem;
+    height: 11rem;
+    left: 23rem;
+    top: 8rem;
     border-radius: 300px;
     clip-path: polygon(69% 0, 69% 100%, 0 100%, 0 0);
    
@@ -236,10 +238,10 @@ html, body {
 
 .tcircle{
     position: absolute;
-    width: 6rem;
-    height: 6rem;
-    left: 5.5rem;
-    top: 15.5rem;
+    width: 9rem;
+    height: 9rem;
+    left: 15rem;
+    top: 16.5rem;
     border-radius: 300px;
     
 }
