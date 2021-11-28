@@ -17,6 +17,18 @@ function changeBackground(){
     
 };
 
+let OdazContext= document.querySelectorAll('.odaz-pro-text');
+let Odazplate = document.querySelectorAll('.first-on-odaz');
+OdazContext.addEventListener("mouseover", )
+
+function displayMe(){
+    Odazplate.style.display = "flex";
+    console.log(p)
+}
+function hideMe(){
+    Odazplate.style.display = "none";
+}
+
 // function showMenu() {
 //       var x = document.getElementsByClassName("mission-img")[0];
 //       // var y = document.getElementById("nav-show");

@@ -7,29 +7,169 @@
 
 
 /* // Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
+/* @media (min-width: 1200px) { ... }*/
 
 /* media queries */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+/* //Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    .mplate {
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: center;
+        /* padding-top: 4rem; */
+        width: 100%;
+        margin-left: 10rem;
+        overflow: hidden !important;
+        /* box-sizing: border-box; */
+        
+        
+        
+       
+        
+       
+    }
+    
+    .ballplate {
+        width: 100%;
+        
+       
+       
+        
+       
+    }
+    .fcircle {
+        
+        width: 15rem;
+        height: 15rem;
+        border-radius: 300px;
+        
+    }
+    
+    
+    .scircle {
+        position:absolute;
+        width: 11rem;
+        height: 11rem;
+        left: 26rem;
+        top: 8rem;
+        border-radius: 300px;
+        overflow: hidden;
+        /* clip-path: polygon(69% 0, 69% 100%, 0 100%, 0 0);
+        */
+        
+    }
+    
+    
+    
+    
+    .tcircle{
+        position: absolute;
+        width: 9rem;
+        height: 9rem;
+        left: 17.5rem;
+        top: 16rem;
+        border-radius: 300px;
+        
+    }
 
-   
+    .helpwayz{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: auto;
+        padding: 4rem 4rem 4rem 4rem ;
+        border-radius: 0 2rem 5rem 0;
+        background: #1C3A27;
+        /*Working on below*/
+        margin: 0 0 0 -4.8rem;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        overflow: hidden;
+        
+        /* clip-path: polygon(82% 0, 84% 0, 83% 5%, 84% 6%, 100% 87%, 98% 95%, 90% 100%, 0 100%, 0 0, 78% 0);
+    
+    
+        border-radius: 0rem 20.5rem 8rem 0rem; */
+    
+    }
+
+    .myhelp {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        width: 70%;
+        
+       
+        
+     }
+    
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    
+
+    /* .navbar-expand-md .navbar-toggler {
+    display: block !important;
+    } */
+
+    /* .navbar-expand-md .navbar-collapse {
+        display: none !important;
+    } */
+
+    .menuList {
+        display: none !important;
+    }
     .mybanz {
         display: flex;
         flex-direction: column-reverse; 
         justify-content: space-between;
+        padding: 0 2rem 3rem 2rem !important;
+        
     }
     .myheader {
         height: auto;
         color: white;
         margin: 0;
-        padding: 2rem 2.5rem 4rem 2.5rem;
+       
         background: #1C3A27;
         border-radius: 0px 0px 0px 80px;
     }
 
-    .mynavv {
-        display: block !important;
+    .myhelp {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-end;
+        width: 70%;
+        
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        
+     }
+
+     .helpz-div{
+         width: auto;
+     }
+
+    .navbar {
+        display: flex !important;
+        justify-content: space-between!;
+        background: #1C3A27;
+        color: white;
+        margin-bottom: 4rem;
+        width: 100%;
+        padding: 1.5rem 1.5rem 4rem 2rem !important;
+        
+    
+        
     }
+
+    /* .mynavv {
+        display: block !important;
+    } */
     .navbar-nav {
     
         margin-left: 0rem !important;
@@ -46,6 +186,7 @@
     
     .menb {
         padding-left: 0 !important;
+        
     
     }
 
@@ -83,6 +224,7 @@
 
     .mplate {
         padding: 0;
+        margin: 0;
     }
 
     .ballplate {
@@ -113,7 +255,6 @@
         left: 18rem;
         top: 6rem;
         border-radius: 300px;
-        clip-path: polygon(69% 0, 69% 100%, 0 100%, 0 0);
        
     
         
@@ -174,9 +315,24 @@
         color: #2E2E2E;
     }
 
+    .pro-text {
+    
+        display: none;
+       
+        
+    }
+
+    .latest:hover .pro-text {
+        display: flex;
+    }
+
+    .first-on-odaz:hover .odaz-pro-text {
+        display: flex;
+    }
+
     .odaz-pro-text {
     
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: space-between;
         width: 100%;
@@ -185,6 +341,10 @@
         border-radius: 0rem 1rem;
         padding: 1.5rem;
         
+    }
+
+    .first-on-odaz:hover .odaz-pro-text {
+        display: flex;
     }
 
     .pro-text-odaz p {
@@ -217,16 +377,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 65%;
+        width: 70%;
         height: auto;
-        padding: 4.5rem 5rem 4.5rem 4rem ;
-        
+        padding: 4rem 4rem 4rem 4rem ;
+        border-radius: 0 2rem 5rem 0;
         background: #1C3A27;
-        clip-path: polygon(82% 0, 84% 0, 83% 5%, 84% 6%, 100% 87%, 98% 95%, 90% 100%, 0 100%, 0 0, 78% 0);
+        /*Working on below*/
+        margin: 0 0 0 -4.8rem;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        overflow: hidden;
+        
+        /* clip-path: polygon(82% 0, 84% 0, 83% 5%, 84% 6%, 100% 87%, 98% 95%, 90% 100%, 0 100%, 0 0, 78% 0);
     
     
-        border-radius: 0rem 20.5rem 8rem 0rem;
+        border-radius: 0rem 20.5rem 8rem 0rem; */
     
+    }
+
+    .help-btn {
+        display: flex;
     }
 
     .blog-md {
@@ -246,9 +417,26 @@
         height: auto;
         color: white;
         margin: 0;
-        padding: 1rem 2rem 3rem 2rem;
+        padding: 1rem 0rem 2rem 0rem;
         background: #1C3A27;
-        border-radius: 0px 0px 0px 60px;
+        border-radius: 0px 0px 0px 80px;
+    }
+
+    .navbar {
+        background-color: #1C3A27 !important;
+        margin: 0 0 2rem 0 !important;
+        width: 100% !important;
+        padding: 3rem 2rem 3rem 2rem;
+    
+    }
+
+    .mybanz{
+        padding: 0 2rem 3rem 2rem !important;
+    }
+
+    .ftext {
+        padding: 0;
+        margin: 0;
     }
    
     .ban-img {
@@ -333,7 +521,7 @@
     }
 
     .missionplate {
-        padding: 4rem 3rem 4rem 3rem;
+        padding: 3rem 2rem 3rem 2rem;
     }
 
     .mycardz-tittle {
@@ -350,7 +538,14 @@
         color: #808080 !important;
     }
     .propla {
-        padding: 4rem 3rem 4rem 3rem;
+        padding: 3rem 2rem;
+    }
+
+    .first-on-odaz:hover .odaz-pro-text {
+        display: flex;
+    }
+    .odaz-pro-text {
+        display: none;
     }
     .project-tittle h1 {
         font-size: 2rem;
@@ -384,10 +579,15 @@
         padding: 0;
         margin: 0 0 0.5rem 0;
     }
+   
+
+    .latest:hover .pro-text {
+        display: flex;
+    }
 
     .pro-text {
     
-        display: flex;
+        display: none;
         justify-content: space-between;
         width: 100%;
         height: 30%;
@@ -409,9 +609,13 @@
         border-radius: 1rem;
     }
 
+    .first-on-odaz:hover .odaz-pro-text {
+        display: flex;
+    }
+
     .odaz-pro-text {
     
-        display: flex;
+        display: none;
         justify-content: space-between;
         width: 100%;
         height: 30%;
@@ -427,10 +631,11 @@
         align-items: center;
         width: 100%;
         height: auto;
-        padding: 2.5rem 2.5rem 4.5rem 4rem ;
+        padding: 2.5rem 2rem 2.5rem 2rem ;
         border-radius: 0;
         background: #1C3A27;
-        clip-path: none;
+        transform: none;
+        margin: 0;
     
     }
 
@@ -454,7 +659,7 @@
     .myhelp {
         display: flex;
         flex-direction: column;
-        
+        transform: none;
         width: 100%;
      }
 
@@ -462,8 +667,16 @@
          margin-bottom: 0.5rem;
      }
 
+     .kada {
+         padding: 3rem 2rem;
+     }
+
      .kad {
-        padding: 4rem 3rem 3rem 3rem;
+        padding: 0;
+    }
+
+    footer {
+        padding: 3rem 2rem;
     }
 
     .iconi {
@@ -476,13 +689,25 @@
         height: auto;
         color: white;
         margin: 0;
-        padding: 1rem 2rem 3rem 2rem;
+        padding: 1rem 0rem 2rem 0rem;
         background: #1C3A27;
         border-radius: 0px 0px 0px 80px;
     }
 
+    .navbar {
+        background-color: #1C3A27 !important;
+        margin: 0 0 2rem 0 !important;
+        width: 100% !important;
+        padding: 2rem 1rem 2rem 1rem;
+    
+    }
+
+    .mybanz{
+        padding: 0 1rem 2rem 1rem !important;
+    }
     .ftext h1 {
         font-size: 2rem;
+        width: 80%;
     }
 
     .article-head-plate {
@@ -494,7 +719,7 @@
     }
 
     .myarticles{
-        padding: 0rem 1.5rem 2rem 1.5rem ;
+        padding: 0rem 1rem 2rem 1rem ;
     
     }
     .plati {
@@ -507,7 +732,7 @@
     }
 
     .propla {
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
     .project-tittle h1 {
         font-size: 2rem;
@@ -583,7 +808,7 @@
         align-items: center;
         width: 100%;
         height: auto;
-        padding: 2rem 2rem 2rem 2rem ;
+        padding: 1rem 1rem 1rem 1rem ;
         border-radius: 0;
         background: #1C3A27;
         clip-path: none;
@@ -628,14 +853,22 @@
     }
 
     .missionplate {
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 2rem 1rem;
     }
 
     .propla {
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 2rem 1rem;
     }
+
+    footer {
+        padding: 4rem 0.5rem;
+    }
+    .kada {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
     .kad {
-        padding: 2rem 2rem 2rem 2rem;
+        padding: 0;
     }
 
     .ban-img {

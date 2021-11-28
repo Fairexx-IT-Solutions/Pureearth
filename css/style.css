@@ -8,60 +8,52 @@ html, body {
     font-family: 'Inter', sans-serif !important;
     
 }
-.menb {
-    width: 100%;
-    display: flex !important;
-    justify-content: space-between !important;
-}
+
+ 
 
 .myheader {
-    height: 40rem;
+    height: 41rem;
     color: white;
     margin: 0;
-    padding: 2rem 3rem 4rem 3rem;
+    padding: 0 0 4rem 0;
     background: #1C3A27;
     border-radius: 0px 0px 0px 80px;
+    overflow: hidden;
 }
+
 .navbar {
-    background: #1C3A27;
-    color: white;
-    margin-bottom: 4rem;
+    background-color: #1C3A27 !important;
+    margin: 0 0 3rem 0 !important;
+    width: 100% !important;
+    padding: 2.5rem 5rem 2.5rem 5rem;
+
+}
+
+.nav-item {
+    padding-left: 2rem;
+}
+
+.nav-item:active {
     
-}
-
-.navbar-brand {
-    color: white !important;
+    border-bottom: chartreuse 0.5px solid !important;
 
 }
 
-.navbar-bran h1 {
-    font-size: 1rem !important;
-    font-weight: 300 !important;
-}
-
-.navbar-toggler-icon{
-    background-color: white;
-    /* color: white !important; */
-    
-}
-.navbar-nav {
-    
-    margin-left: 2rem !important;
-}
-.navbar-nav li {
-    padding-left: 2rem !important;
-}
 .nav-link {
-    font-size: 1rem !important;
-    font-weight: normal;
     color: white !important;
+    font-size: 0.95rem !important;
+}
+.nav-link:hover {
+    color: chartreuse !important;
+    font-size: 0.95rem !important;
 }
 
-.nav-item :active {
-    color:  #53C351 !important ;
-    border: none !important;
-    border-bottom: #53C351 solid 0.3rem !important;
-}
+
+
+
+/* .navbar-collapse {
+    flex-basis: 0 !important;
+} */
 
 /* .nav-item :hover {
     
@@ -81,18 +73,16 @@ html, body {
 .btn-log {
     width: 7.5rem !important;
     height: 2.5rem !important;
-    padding: 0.75rem !important;
-    display: flex;
-    align-items: center;
-}
-
-.btn-log:hover {
-    width: 7.5rem !important;
-    height: 2.5rem !important;
+    margin-left: 1.5rem;
     padding: 0.75rem !important;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn-log:hover {
+    
+   
     background: #53C351 !important ;
 }
 
@@ -120,11 +110,11 @@ html, body {
 }
 
 .ftext h1 {
-    font-size: 4rem;
+    font-size: 3.75rem;
 }
 
 .ftext p {
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
 
 .play p {
@@ -173,9 +163,14 @@ html, body {
     padding: 0.4rem 0.9rem 0.4rem 0.9rem;
 } */
 
-.banner {
-    margin-top: 3rem;
-    display: flex;
+.mybanban {
+    padding: 0 !important;
+}
+.mybanz {
+    padding: 0 0rem 0rem 5rem !important;
+}
+.ftext-pla {
+    padding: 0 !important;
 }
 
 .play {
@@ -194,6 +189,8 @@ html, body {
     align-items: center;
     /* padding-top: 4rem; */
     width: 100%;
+    margin-left: 13rem;
+    overflow: hidden !important;
     /* box-sizing: border-box; */
     
     
@@ -205,7 +202,7 @@ html, body {
 
 .ballplate {
     width: 100%;
-    padding-left: 6rem;
+    
    
    
     
@@ -213,8 +210,8 @@ html, body {
 }
 .fcircle {
     
-    width: 16rem;
-    height: 16rem;
+    width: 18rem;
+    height: 18rem;
     border-radius: 300px;
     
 }
@@ -224,12 +221,12 @@ html, body {
     position:absolute;
     width: 11rem;
     height: 11rem;
-    left: 23rem;
+    left: 33rem;
     top: 8rem;
     border-radius: 300px;
-    clip-path: polygon(69% 0, 69% 100%, 0 100%, 0 0);
-   
-
+    overflow: hidden;
+    /* clip-path: polygon(69% 0, 69% 100%, 0 100%, 0 0);
+    */
     
 }
 
@@ -240,8 +237,8 @@ html, body {
     position: absolute;
     width: 9rem;
     height: 9rem;
-    left: 15rem;
-    top: 16.5rem;
+    left: 26rem;
+    top: 17.5rem;
     border-radius: 300px;
     
 }
@@ -264,11 +261,12 @@ html, body {
 .article-tittle-plate{
     /* width: 80%; */
     padding: 0;
+    height: auto;
 } 
 
 .article-tittle h1 {
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     color: #2E2E2E;
 }
@@ -276,10 +274,13 @@ html, body {
     display: flex;
     justify-content: end;
 }
+.article-fig {
+    height: auto;
+}
 
 .article-fig h1 {
     font-size: 10rem;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     color: #E6E6E6;
 }
@@ -293,10 +294,12 @@ html, body {
     color: #808080;
     font-weight: normal;
     font-style: normal;
+    font-size: 0.95rem;
     
 }
 
 .article-link a {
+    font-size: 0.95rem;
     font-style: normal !important;
     font-weight: bold !important;
     font-feature-settings: 'pnum' on, 'lnum' on !important;
@@ -305,13 +308,16 @@ html, body {
 
 .article-img {
     height: 25rem;
-    padding: 2rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    overflow: hidden;
+    object-fit: cover;
     
 
 }
 
 .article-img img {
     border-radius: 1rem;
+    object-fit: cover;
 }
 .plate{
  
@@ -361,7 +367,7 @@ html, body {
 
 .missionT h1 {
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: 500;
     color: #2E2E2E;
 }
 .mycardz-plate {
@@ -417,14 +423,14 @@ html, body {
 }
 
 .mycardz-tittle {
-    font-size: 1.5rem !important;
-    font-weight: 700 !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
     font-style: normal !important;
     font-feature-settings: 'pnum' on, 'lnum' on !important;
 }
 
 .mycardz-text {
-    font-size: 1rem !important;
+    font-size: 0.95rem !important;
     font-weight: normal !important;
     font-style: normal !important;
     color: #808080 !important;
@@ -458,7 +464,7 @@ html, body {
 }
 .project-tittle h1 {
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: 500;
     font-style: normal;
     color: #2E2E2E;
 }
@@ -499,7 +505,7 @@ html, body {
 
 .pro-text {
     
-    display: flex;
+    display: none;
     justify-content: space-between;
     width: 90%;
     height: 20%;
@@ -507,6 +513,10 @@ html, body {
     border-radius: 0rem 1rem;
     padding: 2.5rem;
     
+}
+
+.latest:hover .pro-text {
+    display: flex;
 }
 
 .proj-text p {
@@ -577,7 +587,7 @@ html, body {
 
 .odaz-pro-text {
     
-    display: flex;
+    display: none;
     justify-content: space-between;
     width: 100%;
     height: 60%;
@@ -585,6 +595,10 @@ html, body {
     border-radius: 0rem 1rem;
     padding: 2.5rem;
     
+}
+
+.first-on-odaz:hover .odaz-pro-text {
+    display: flex;
 }
 
 .odaz-pro-text-icon {
@@ -627,31 +641,46 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65%;
+    width: 60%;
     height: auto;
-    padding: 4.5rem 6rem 4.5rem 4rem ;
-    
+    padding: 6rem 6rem 6rem 6rem ;
+    border-radius: 0 2rem 5rem 0;
     background: #1C3A27;
-    clip-path: polygon(82% 0, 84% 0, 83% 5%, 84% 6%, 100% 87%, 98% 95%, 90% 100%, 0 100%, 0 0, 78% 0);
+    /*Working on below*/
+    margin: 0 0 0 -6rem;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    overflow: hidden;
+    
+    /* clip-path: polygon(82% 0, 84% 0, 83% 5%, 84% 6%, 100% 87%, 98% 95%, 90% 100%, 0 100%, 0 0, 78% 0);
 
 
-    border-radius: 0rem 20.5rem 8rem 0rem;
+    border-radius: 0rem 20.5rem 8rem 0rem; */
 
 }
 
 .myhelp {
-   display: block;
-   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+   width: 80%;
+   
+   -webkit-transform: skew(-20deg);
+   -moz-transform: skew(-20deg);
+   -o-transform: skew(-20deg);
+   
 }
 .helpz-text {
-    width: auto;
+    width: 75%;
 } 
 
 .helpz-text h2 {
     width: auto;
     
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 4rem;
     color: #FFFFFF;
 }
@@ -664,8 +693,8 @@ html, body {
     
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
-    color: #E6E6E6;
+    font-size: 0.95rem;
+    color: #ece9e9;
 }
 
 .blog-tittle {
@@ -698,6 +727,10 @@ color: #2E2E2E;
     background-image: url('../images/nature2.jpg');
     
     border-radius: 1rem;
+}
+
+.card-article {
+    font-size: 0.95rem;
 }
 .pro {
     display: grid;
@@ -735,11 +768,11 @@ color: #2E2E2E;
     color: white;
 }
 
-.btn:hover {
+/* .btn:hover {
     
     border: none;
     background: rgb(119, 118, 118);
-}
+} */
 
 .btnnn {
     margin-left: 1rem !important;
@@ -812,7 +845,7 @@ color: #2E2E2E;
 
 footer{
     background: #F4F9F8;
-    padding: 3rem;
+    padding: 4rem 3rem;
 }
 .kada {
     background: linear-gradient(180deg, 
@@ -824,6 +857,11 @@ footer{
 .loc {
     display: flex;
 
+}
+
+.fut-log-pix {
+    font-weight: 700;
+    color: rgb(228, 227, 226);
 }
 
 .fut-head {
@@ -878,12 +916,16 @@ footer{
 }
 #inputemail {
     outline: none;
-    border: 0.2rem solid whitesmoke;
+    border: 0.1rem solid rgb(192, 190, 190);
     background-color: white;
 }
 
 .abt {
     width: 15rem;
+}
+
+.fut-log {
+    margin-bottom: 0.5rem;
 }
 
 
